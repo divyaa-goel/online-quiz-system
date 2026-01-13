@@ -1,0 +1,26 @@
+{
+  "name": "online-quiz-system",
+  "version": "1.0.0",
+  "description": "An online quiz system that allows users to take quizzes and track their scores.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "keywords": [
+    "quiz",
+    "online",
+    "education"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
